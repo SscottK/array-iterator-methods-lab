@@ -91,7 +91,8 @@ let inventorNames = []
 // Enter your solution code here:
 
 inventorNames =  inventors.map((inventor) => {
-    return `${inventor.first}, ${inventor.last}`
+    
+    return {'first': inventor.first, 'last': inventor.last}
 })
 
 // Check your return value:
